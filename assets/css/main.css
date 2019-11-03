@@ -1863,7 +1863,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #4D9167;
 		}
 
 	select {
@@ -1955,7 +1955,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #4D9167;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2432,6 +2432,14 @@ input, select, textarea {
 			background-color: rgba(144, 144, 144, 0.5);
 		}
 
+		input[type="submit"]:focus,
+		input[type="reset"]:focus,
+		input[type="button"]:focus,
+		button:focus,
+		.button:focus {
+			box-shadow: 0 0 0 2px #4D9167 !important;
+		}
+
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
@@ -2490,6 +2498,14 @@ input, select, textarea {
 				background-color: #f48775 !important;
 			}
 
+			input[type="submit"].primary:focus,
+			input[type="reset"].primary:focus,
+			input[type="button"].primary:focus,
+			button.primary:focus,
+			.button.primary:focus {
+				box-shadow: 0 0 0 2px #4D9167 !important;
+			}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
@@ -2501,6 +2517,7 @@ input, select, textarea {
 		.button:disabled {
 			pointer-events: none;
 			opacity: 0.25;
+			box-shadow: none !important;
 		}
 
 		@media screen and (max-width: 736px) {
