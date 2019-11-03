@@ -1858,14 +1858,6 @@ input, select, textarea {
 			box-shadow: none;
 		}
 
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			box-shadow: 0 0 0 2px #4D9167;
-		}
-
 	select {
 		background-size: 1.25em;
 		background-repeat: no-repeat;
@@ -2432,14 +2424,6 @@ input, select, textarea {
 			background-color: rgba(144, 144, 144, 0.5);
 		}
 
-		input[type="submit"]:focus,
-		input[type="reset"]:focus,
-		input[type="button"]:focus,
-		button:focus,
-		.button:focus {
-			box-shadow: 0 0 0 2px #4D9167 !important;
-		}
-
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
@@ -2496,14 +2480,6 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:active {
 				background-color: #f48775 !important;
-			}
-
-			input[type="submit"].primary:focus,
-			input[type="reset"].primary:focus,
-			input[type="button"].primary:focus,
-			button.primary:focus,
-			.button.primary:focus {
-				box-shadow: 0 0 0 2px #4D9167 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
